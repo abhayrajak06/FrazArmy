@@ -9,5 +9,5 @@ void reverseArrayHelper(int l,int r,ArrayList<Integer>arr)
 
 void reverseArray(ArrayList<Integer> arr,int m)
 {
-    reverseArrayHelper(m+1,arr.length()-1,arr);
+    reverseArrayHelper(m+1,arr.size()-1,arr);
 }
